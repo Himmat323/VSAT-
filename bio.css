@@ -1,0 +1,295 @@
+@font-face {
+    font-family: Cuprum;
+    src: url(./Martel_Sans/MartelSans-Regular.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Cuprum";
+    color: #000;
+    cursor: pointer;
+}
+
+
+
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    /* color: black; */
+
+}
+
+
+#nav {
+    cursor: pointer;
+    height: 145px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 150px;
+    gap: 50px;
+    /* position: fixed; */
+    justify-content: flex-start;
+
+}
+
+#nav a {
+    font-weight: 700;
+    color: #000;
+    text-decoration: none;
+}
+
+#nav img {
+    height: 75px;
+
+}
+
+#BIO {
+    color: black;
+    position: relative;
+
+}
+
+.logo h1 {
+    padding-left: 28%;
+    color: black;
+    text-align: center;
+    font-size: 10vh;
+    text-transform: uppercase;
+}
+
+#BIO img {
+    object-fit: cover;
+    height: 400px;
+    width: 100%;
+}
+
+#BIO {
+    text-align: center;
+    width: 100%;
+}
+
+#BIO h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 5vw;
+    font-weight: 500;
+    margin-top: -13vw;
+}
+
+#BIO p {
+    margin-top: 7vw;
+    padding-left: 22vw;
+    padding-right: 23vw;
+    text-align: center;
+    line-height: 2;
+    font-size: 14px;
+
+    padding-bottom: 5vw;
+
+}
+
+.icns {
+    padding-left: 2vw;
+    padding-top: 10vw;
+    position: relative;
+
+}
+
+.icns i {
+    font-size: 34px;
+    color: blue;
+    border-radius: 20px;
+}
+
+.icns .ri-linkedin-box-fill {
+    color: #196b85;
+}
+
+.icns .ri-instagram-line {
+    color: red;
+}
+
+
+
+.bio2 {
+    display: flex;
+    position: relative;
+    color: black;
+    height: 100%;
+    width: 100%;
+    justify-content: space-between;
+    z-index: -1;
+}
+
+.bio2 img {
+    /* border-radius: 50px; */
+    height: 50vh;
+    /* background-color: black; */
+    width: 100%;
+    margin-left: 5vw;
+    border: 1px solid #fff;
+    box-shadow: -1px -2px 20px 0px;
+
+}
+
+.bio2nd {
+    padding-left: 10%;
+    line-height: 25px;
+}
+
+.bio2nd p {
+    padding-top: 2vw;
+    font-size: 15px;
+    padding-right: 3vw;
+    padding-left: 1vw;
+}
+
+.bio3rd {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    margin-top: 10%;
+}
+
+.bio3rd p {
+
+    font-size: 15px;
+    padding-right: 3vw;
+    padding-left: 5vw;
+    line-height: 2;
+}
+
+.bio3rd img {
+    height: 30vh;
+    margin-right: 2vw;
+
+
+}
+
+
+.bio4 {
+    display: flex;
+    justify-content: space-between;
+    color: black;
+    height: 100%;
+    width: 100%;
+    margin-top: 10%;
+}
+
+.bio4 img {
+    height: 30vh;
+    width: 30vw;
+    padding-left: 5vw;
+
+
+}
+
+.bio4 p {
+
+    font-size: 15px;
+    padding-right: 3vw;
+    padding-left: 5vw;
+    line-height: 2;
+
+}
+
+.bio5 {
+    margin-top: 9%;
+    display: flex;
+    width: 100%;
+    color: black;
+    margin-bottom: 5vw;
+    justify-content: space-between;
+}
+
+.bio5 p {
+    font-size: 14px;
+    padding-right: 3vw;
+    padding-left: 5vw;
+    line-height: 2;
+}
+
+.bio5 img {
+    height: 35vh;
+    margin-right: 10%;
+}
+
+#footer {
+    height: 40vh;
+    width: 100;
+    background: linear-gradient(to left bottom, #58a814,
+            greenyellow);
+    ;
+}
+
+#footer {
+    height: 60vh;
+    /* width: 100%; */
+    background: linear-gradient(to left bottom, #119f3a 0%, #a3d421 80%);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 6.5vw;
+    padding: 0 100px;
+}
+
+#footer>img {
+    position: absolute;
+    left: 0;
+    height: 100%;
+    z-index: 0;
+}
+
+#f1 img {
+    height: 150px;
+}
+
+#f1,
+#f2,
+#f3,
+#f4 {
+    width: fit-content;
+    position: relative;
+    z-index: 99;
+    /* background-color: red; */
+}
+
+#f2 li {
+    text-decoration: none;
+    font-size: 1.6vw;
+    white-space: nowrap;
+    text-transform: uppercase;
+    color: #000;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+#f3 li {
+    font-size: 1.6vw;
+    white-space: nowrap;
+    text-transform: uppercase;
+    color: #000;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+#f4 h4 {
+    font-size: 1.3vw;
+    white-space: nowrap;
+    text-transform: uppercase;
+    color: #000;
+    font-weight: 800;
+    line-height: 35px;
+    margin-bottom: 7px;
+}
+
+#nav i {
+    display: none;
+}

@@ -1,0 +1,224 @@
+@font-face {
+    font-family: Cuprum;
+    src: url(./Martel_Sans/MartelSans-Regular.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Cuprum";
+    color: #000;
+    cursor: pointer;
+}
+
+
+
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    color: black;
+
+}
+
+
+#nav {
+    background-color: transparent;
+    cursor: pointer;
+    height: 145px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 150px;
+    gap: 50px;
+    /* position: fixed; */
+    justify-content: flex-start;
+    z-index: 99;
+}
+
+#nav a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 700;
+}
+
+#nav img {
+    height: 75px;
+
+}
+.icns {
+    padding-left: 2vw;
+    
+}
+
+.icns i{
+    font-size:34px;
+    color: blue;
+    border-radius: 20px;
+}
+
+.icns .ri-linkedin-box-fill{
+    color: #196b85;
+}
+.icns .ri-instagram-line {
+    color: red;
+ }
+
+
+
+.slider img {
+    width: 100%;
+    height: 30vw;
+    object-fit: cover;
+   padding-top: -10vw;
+
+}
+
+.slider h1 {
+    color: #000;
+    margin-top: -16vw;
+    text-align: center;
+    font-size: 6vw;
+    font-weight: 200;
+}
+
+.content {
+    border: solid white;
+    border-radius: 20px;
+    padding: 20px;
+    width: 88%;
+    margin: 82px auto;
+
+
+
+}
+
+.content h2 {
+    padding-left: 6vw;
+    padding-right: 2vw;
+    line-height: 2;
+    margin-top: 1vw;
+}
+
+.content p {
+    padding-left: 6vw;
+    padding-right: 2vw;
+    line-height: 2;
+    width: 100%;
+    font-weight: 500;
+}
+
+
+
+.getin {
+    color: #58a814;
+
+}
+
+
+.getin h1 {
+    color: #ffff;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 55px;
+
+}
+
+
+.getin {
+    margin-top: 8vw;
+}
+
+
+.getin .time {
+    cursor: pointer;
+    text-align: center;
+    justify-content: space-between;
+    padding: 40px 78px;
+    display: flex;
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    border-radius: 110px;
+    margin: 0 5px 10px 5px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    font-size: 1.1rem;
+    font-weight: 600;
+
+}
+
+.getin .time .date {
+    text-align: center;
+}
+
+
+#footer {
+    height: 40vh;
+    width: 100%;
+    background: linear-gradient(to left bottom, #58a814,
+            greenyellow);
+    ;
+}
+
+#footer {
+    height: 60vh;
+    width: 100%;
+    background: linear-gradient(to left bottom, #119f3a 0%, #a3d421 80%);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 6.5vw;
+    padding: 0 100px;
+}
+
+#footer>img {
+    position: absolute;
+    left: 0;
+    height: 100%;
+    z-index: 0;
+}
+
+#f1 img {
+    height: 150px;
+}
+
+#f1,
+#f2,
+#f3,
+#f4 {
+    width: fit-content;
+    position: relative;
+    z-index: 99;
+    /* background-color: red; */
+}
+
+#f2 li {
+    text-decoration: none;
+    font-size: 1.6vw;
+    white-space: nowrap;
+    text-transform: uppercase;
+    color: #000;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+#f3 li {
+    font-size: 1.6vw;
+    white-space: nowrap;
+    text-transform: uppercase;
+    color: #000;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+#f4 h4 {
+    font-size: 1.3vw;
+    white-space: nowrap;
+    text-transform: uppercase;
+    color: #000;
+    font-weight: 800;
+    line-height: 35px;
+    margin-bottom: 7px;
+}

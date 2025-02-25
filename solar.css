@@ -1,0 +1,265 @@
+@font-face {
+    font-family: Cuprum;
+    src: url(./Martel_Sans/MartelSans-Regular.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Cuprum";
+    color: #000;
+    cursor: pointer;
+}
+
+
+
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    color: black;
+
+}
+
+
+#nav {
+    cursor: pointer;
+    height: 145px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 150px;
+    gap: 50px;
+    background-color: transparent;
+    /* position: fixed; */
+    justify-content: flex-start;
+    z-index: 99;
+}
+
+#nav a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 700;
+}
+
+#nav img {
+    height: 75px;
+
+}
+
+
+.slider1 img {
+    height: 30vw;
+    object-fit: cover;
+    width: 100%;
+}
+
+.slider1 h1 {
+    margin-top: -17vw;
+    text-align: center;
+    font-size: 7vw;
+    color: #000;
+    font-weight: 200;
+}
+
+.contenet {
+    display: flex;
+}
+
+
+.ipp h1 {
+    margin-top: 5vw;
+    text-align: center;
+    font-size: 2vw;
+}
+/* 
+.ipp h2 {
+    padding-left: 6vw;
+    padding-right: 2vw;
+
+} */
+
+.ipp p {
+    font-size: 14px;
+    padding-left: 6vw;
+    padding-right: 2vw;
+    line-height: 2;
+    /* margin-top: 1vw; */
+
+}
+
+.img img {
+padding-right: 3vw;
+    width: 29vw;
+    height: 18vw;
+}
+
+
+.epc {
+    margin-top: 3vw;
+}
+
+.epc h1 {
+    text-align: center;
+    font-size: 2vw;
+}
+
+.epc img {
+    padding-left: 5vw;
+    width: 35vw;
+    height: 18vw;
+}
+
+.epccont {
+    display: flex;
+}
+
+.epccont p {
+    line-height: 2;
+    font-size: 14px;
+    padding-left: 2vw;
+}
+
+
+.omcontent {
+    display: flex;
+    justify-content: space-between;
+}
+
+.om h1 {
+    text-align: center;
+    font-size: 2vw;
+}
+
+.om2 p {
+    line-height: 2;
+    padding-left: 5vw;
+    padding-right: 2vw;
+    font-size: 14px;
+}
+
+.omimg img {
+    padding-right: 3vw;
+    width: 35vw;
+    height: 18vw;
+}
+
+.energy{
+    display: flex;
+    justify-content: space-between;
+}
+.storage h1 {
+    text-align: center;
+    font-size: 2vw;
+}
+
+.store img {
+    padding-left: 5vw;
+    width: 52vw;
+    height: 50vh;
+    object-position: center;
+}
+
+.storage{
+    margin-bottom: 10vw;
+}
+
+.enerc p {
+    color: #000;
+    font-size: 14px;
+    line-height: 2;
+    padding-right: 3vw;
+    padding-left: 2vw;
+}
+
+#footer {
+    height: 40vh;
+    width: 100;
+    background: linear-gradient(to left bottom, #58a814,
+            greenyellow);
+    ;
+}
+
+#footer {
+    height: 60vh;
+    /* width: 100%; */
+    background: linear-gradient(to left bottom, #119f3a 0%, #a3d421 80%);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 6.5vw;
+    padding: 0 100px;
+}
+
+#footer>img {
+    position: absolute;
+    left: 0;
+    height: 100%;
+    z-index: 0;
+}
+
+#f1 img {
+    height: 150px;
+}
+
+#f1,
+#f2,
+#f3,
+#f4 {
+    width: fit-content;
+    position: relative;
+    z-index: 99;
+    /* background-color: red; */
+}
+
+#f2 li {
+    text-decoration: none;
+    font-size: 1.6vw;
+    white-space: nowrap;
+    text-transform: uppercase;
+    color: #000;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+#f3 li {
+    font-size: 1.6vw;
+    white-space: nowrap;
+    text-transform: uppercase;
+    color: #000;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+#f4 h4 {
+    font-size: 1.3vw;
+    white-space: nowrap;
+    text-transform: uppercase;
+    color: #000;
+    font-weight: 800;
+    line-height: 35px;
+    margin-bottom: 7px;
+}
+
+.icns {
+    padding-left: 2vw;
+    
+}
+
+.icns i{
+    font-size:34px;
+    color: blue;
+    border-radius: 20px;
+}
+
+.icns .ri-linkedin-box-fill{
+    color: #196b85;
+}
+.icns .ri-instagram-line {
+    color: red;
+ }
+

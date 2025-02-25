@@ -1,0 +1,234 @@
+@font-face {
+    font-family: Cuprum;
+    src: url(./Martel_Sans/MartelSans-Regular.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Cuprum";
+    color: #000;
+    cursor: pointer;
+}
+
+
+
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    color: black;
+
+}
+
+
+#nav {
+    cursor: pointer;
+    height: 145px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 150px;
+    gap: 50px;
+    background-color: transparent;
+    /* position: fixed; */
+    justify-content: flex-start;
+    z-index: 99;
+}
+
+#nav a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 700;
+}
+
+#nav img {
+    height: 75px;
+
+}
+
+ .icns {
+    padding-left: 2vw;
+    
+}
+
+.icns i{
+    font-size:34px;
+    color: blue;
+    border-radius: 20px;
+}
+
+.icns .ri-linkedin-box-fill{
+    color: #196b85;
+}
+.icns .ri-instagram-line {
+    color: red;
+ }
+
+
+.banner img {
+    height: 30vw;
+    object-position: center;
+    width: 100%;
+}
+
+.banner h1 {
+    margin-top: -13vw;
+    text-align: center;
+    font-size: 5vw;
+    font-weight: 400;
+
+}
+
+.slider1{
+    margin-top: 10vw;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.offic h5,i{
+    font-size: 2vw;
+    font-weight: 200;
+}
+.offic p{
+    font-size: 20px;
+}
+.call p{
+    font-size: 20px;
+}
+.call h5{
+    font-size: 2vw;
+    font-weight: 200;
+}
+
+
+
+.contact2 {
+    padding: 6vh 8vw 6vw 8vw;
+    background-image: linear-gradient(rgba(99, 112, 168, 0.5), rgba(81, 91, 233, 0.5)), url(/images/contact.jpg);
+    width: 100%;
+    background-position: center;
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.contact2 .form {
+    width: 100%;
+    background-color: white;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+}
+
+.contact2 .form h3 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.contact2 .form input {
+    margin: 15px 0;
+    padding: 15px 10px;
+    border: 1px solid rgb(84, 40, 241);
+    outline: none;
+}
+
+
+.contact2 .form a.blue {
+    text-decoration: none;
+    font-size: 0.9rem;
+    padding: 13px 35px;
+    background-color: #fff;
+    font-weight: 600;
+    border-radius: 5px;
+    color: #000;
+    color: #fff;
+    background-color: rgba(21, 21, 100);
+    transition: 0.3s ease;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.contact2 .form a.blue:hover {
+    color: rgba(21, 21, 100);
+    background-color: #fff;
+}
+
+
+#footer {
+    margin-top: 5vw;
+    height: 40vh;
+    width: 100;
+    background: linear-gradient(to left bottom, #58a814,
+            greenyellow);
+    ;
+}
+
+#footer {
+    height: 60vh;
+    /* width: 100%; */
+    background: linear-gradient(to left bottom, #119f3a 0%, #a3d421 80%);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 6.5vw;
+    padding: 0 100px;
+}
+
+#footer>img {
+    position: absolute;
+    left: 0;
+    height: 100%;
+    z-index: 0;
+}
+
+#f1 img {
+    height: 150px;
+}
+
+#f1,
+#f2,
+#f3,
+#f4 {
+    width: fit-content;
+    position: relative;
+    z-index: 99;
+    /* background-color: red; */
+}
+
+#f2 li {
+    text-decoration: none;
+    font-size: 1.6vw;
+    white-space: nowrap;
+    text-transform: uppercase;
+    color: #000;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+#f3 li {
+    font-size: 1.6vw;
+    white-space: nowrap;
+    text-transform: uppercase;
+    color: #000;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+#f4 h4 {
+    font-size: 1.3vw;
+    white-space: nowrap;
+    text-transform: uppercase;
+    color: #000;
+    font-weight: 800;
+    line-height: 35px;
+    margin-bottom: 7px;
+}
